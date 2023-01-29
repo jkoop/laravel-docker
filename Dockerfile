@@ -5,4 +5,5 @@ COPY etc/nginx/vhost.conf etc/nginx/vhost.conf
 COPY provision/entrypoint.d/05-permissions.sh provision/entrypoint.d/05-permissions.sh
 COPY provision/entrypoint.d/artisan.sh provision/entrypoint.d/artisan.sh
 COPY provision/entrypoint.d/etc/cron/application provision/entrypoint.d/etc/cron/application
+RUN apk add npm
 WORKDIR /app
