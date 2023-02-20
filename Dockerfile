@@ -6,4 +6,5 @@ COPY provision/entrypoint.d/05-permissions.sh provision/entrypoint.d/05-permissi
 COPY provision/entrypoint.d/artisan.sh provision/entrypoint.d/artisan.sh
 COPY provision/entrypoint.d/etc/cron/application provision/entrypoint.d/etc/cron/application
 RUN apk add npm
+RUN apk add git-lfs
 WORKDIR /app
