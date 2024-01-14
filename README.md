@@ -2,6 +2,9 @@
 
 A basic, general-purpose, production-ready docker image for running a Laravel site.
 
+> [!WARNING]
+> I abandoned this project in favour of [ServerSideUp's images](https://serversideup.net/open-source/docker-php/).
+
 ## Usage
 
 ```yml
